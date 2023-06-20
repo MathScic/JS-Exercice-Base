@@ -1,12 +1,20 @@
 const validation = document.querySelector(".btn-1")
-let nom = document.getElementById('Nom')
-let prenom = document.getElementById('Prenom')
+const nom = document.querySelector("button")
 
-validation.addEventListener("click", () => {
-    console.log("ok");
-    nom.style.color = 'red'
-    prenom.style.color = 'red'
-})
+
+
+
+validation.addEventListener('click', () => {
+console.log('click');
+validation.innerHTML += '<div class="nom prenom"></div>'
+validation.classList.remove('.nom','prenom')
+nom
+}) 
+
+
+
+
+
 
 
 

@@ -8,6 +8,11 @@
     font-weight: 700;
 }
 
+.btn-2 {
+    background: red;
+    color: aliceblue;
+}
+
 .sous_presentation {
     display: flex;
     flex-direction: column;
@@ -24,4 +29,8 @@
 .presentation {
     display: flex;
     flex-direction: column;
+}
+
+.nom, .prenom {
+    
 }
