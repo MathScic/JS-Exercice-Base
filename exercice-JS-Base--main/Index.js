@@ -1,20 +1,11 @@
-const validation = document.querySelector("button")
+const validation = document.querySelector("btn-1");
 
-validation.addEventListener('click', () => {
-console.log('click');
-validation.innerHTML += '<div class=""></div>'
-colorChange()
-}) 
-
+validation.addEventListener("click", () => {
+  console.log("click");
+  colorChange();
+});
 
 function colorChange() {
-    const nom = document.querySelector("input[placeholder=Nom]")
-    const prenom = document.querySelector("input[placeholder=Prénom]")
-
+  const nom = document.querySelector("input[placeholder=Nom]");
+  const prenom = document.querySelector("input[placeholder=Prénom]");
 }
-
-
-
-
-
-
